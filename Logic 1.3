@@ -1,0 +1,19 @@
+1. Start
+2. Invite digital twin of note taker to online meeting (we have to create meeting link  with date and time and create a schedule then at the specified time note taker will hit link.)
+3. Participate in online meeting like other members
+4. Record the meeting
+5. Prepare notes as verbatim(speech to text transcription)
+6. If during speech to text conversion during online meeting if it failed to convert then it can be corrected by raising an error or asking doubt to attendee(such as i didn't understand ,can you repeat this)
+7. During Speech-to-Text, you can provide a list of additional languages that the audio data might include If you include a list of languages in your request, Speech-to-Text attempts to transcribe the audio based upon the language that best fits the sample from the alternates you provide Speech-to-Text then labels the transcription results with the predicted language code this way notetaker can deal with multiple languages during meeting.
+8. Detect important keywords based on agenda
+9. During the meeting if notetaker detect that screen is being shared or any thing is being presented then it automatically switches to video recording and screenshot of screen.
+10.Identify the content of the images/graphs 
+11. Time stamp and speaker recognition has to be done(Time stamp can be achieved by speak diarization, Speech-to-Text can recognize multiple speakers in the same audio clip.)
+12. If there is any special notes to be taken more importantly we can use a special assist called upon a keyword (If coffiecient of Relation crossed a certain fixed threshold then it is consider as important keyword as soon as these keyword are detected then it will start recording.
+)
+13. All the data will be saved in the drive with audio and video clips for future uses
+14. After Speech to text  summarization of meeting has to be done
+ can be done by taking the text splitting into sentences ,removing stop words, and other text preprocessing ,building a similarity matrix, finding their rank and picking top
+ sentences from matrix. 
+15.Text detection has to be done from the images shown in the screen
+16. End.
